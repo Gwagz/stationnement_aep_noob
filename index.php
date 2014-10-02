@@ -1,11 +1,4 @@
-<?php
-
-$i = $_GET['i'];
-if($i == '1'):
-echo "vrai";
-else:
-echo "faux";
-endif;
+<?php 
+require_once("header.php"); 
 
 ?>
-
