@@ -5,7 +5,7 @@ ini_set('display_errors', 'On');
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" dir="ltr">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="KEYWORDS" content="Stationnement" />
     <meta name="robots" content="index,follow" />
     <link rel="shortcut icon" href="http://www.aep.polymtl.ca/favicon.ico" />
@@ -54,14 +54,14 @@ ini_set('display_errors', 'On');
                     <!-- MENU NAVIGATION -->
                     
                         <?php 
-                            require_once("class.loginWidget.php");
+                      /*      require_once("class.loginWidget.php");
                             $login = 1;
                             if(isset($_GET['login'])) 
                             {
                                 $login = $_GET['login'];
                             }
                             print(loginWidget::getWidget("http://$_SERVER[HTTP_HOST]$_SERVER[PHP_SELF]", $login));
-                        
+                        */
                         ?>
                     
                         <div class="widget">
